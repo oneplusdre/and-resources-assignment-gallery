@@ -20,11 +20,12 @@
 				style="@style/VerticalColumn"
 		>
 			<ImageView
+					android:contentDescription="Image"
 					android:id="@+id/left_image"
 					android:src="@drawable/alley_architecture_buildings_2526517"
 					android:layout_width="match_parent"
 					android:layout_height="wrap_content"
-					android:padding="50dp"
+					android:padding="5dp"
 					android:adjustViewBounds="true"/>
 
 		</LinearLayout>
@@ -38,8 +39,7 @@
 				style="@style/VerticalColumn"
 		>
 			<ImageView
-
-					android:src="@drawable/adventure_automobile_classic_2533092"
+					android:contentDescription="Image"
 					android:id="@+id/right_image"
 					android:layout_width="match_parent"
 					android:layout_height="wrap_content"
