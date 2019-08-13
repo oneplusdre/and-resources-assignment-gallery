@@ -44,7 +44,7 @@
 					android:layout_width="match_parent"
 					android:layout_height="wrap_content"
 					android:padding="50dp"
-					android:adjustViewBounds="true"/>¬
+					android:adjustViewBounds="true"/>
 
 		</LinearLayout>
 
