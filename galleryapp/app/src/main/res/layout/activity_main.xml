@@ -16,7 +16,7 @@
 				android:id="@+id/left_column"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
-				android:orientation="horizontal"
+				android:orientation="vertical"
 				style="@style/VerticalColumn"
 		>
 			<ImageView
@@ -35,7 +35,7 @@
 				android:id="@+id/right_column"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
-				android:orientation="horizontal"
+				android:orientation="vertical"
 				style="@style/VerticalColumn"
 		>
 			<ImageView
