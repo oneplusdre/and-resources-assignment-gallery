@@ -56,9 +56,9 @@ var views = Array(20){ImageView(this)}
         views.forEachIndexed { index, imageView ->
             imageView.layoutParams = layoutParams
             imageView.adjustViewBounds = true
-            if (index.rem(2) == 0) {left_column.removeAllViewsInLayout(); left_column.addView(views[0])}
+            if (index.rem(2) == 0){ left_column.addView(views[index])}
 
-        else {right_column.removeAllViewsInLayout(); right_column.addView(views[0])}
+        else { right_column.addView(views[index])}
 
 
 
