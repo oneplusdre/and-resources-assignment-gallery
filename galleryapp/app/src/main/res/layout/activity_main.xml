@@ -20,7 +20,7 @@
 				style="@style/VerticalColumn"
 		>
 			<ImageView
-					android:contentDescription="Image"
+					android:contentDescription=""
 					android:id="@+id/left_image"
 					android:src="@drawable/alley_architecture_buildings_2526517"
 					android:layout_width="match_parent"
@@ -39,7 +39,7 @@
 				style="@style/VerticalColumn"
 		>
 			<ImageView
-					android:contentDescription="Image"
+					android:contentDescription=""
 					android:id="@+id/right_image"
 					android:layout_width="match_parent"
 					android:layout_height="wrap_content"
